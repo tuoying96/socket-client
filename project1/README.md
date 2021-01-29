@@ -1,4 +1,4 @@
-### README for [Project1: Simple Client](https://course.ccs.neu.edu/cs5700sp21/project1.html)####
+### README for [Project1: Simple Client](https://course.ccs.neu.edu/cs5700sp21/project1.html)
 
 #### high-level approach 
 The work house of this project is *Client.java*. The program is very simple and easy to understand. It first initilizes the system by creating the socket and wrapping the input output stream to *PrintWrite* and *BufferReader*, respectively. Then the program sends out a hello message and wait for the challenges. After finishing all the challenges from server, the program will wait for the secret flag and then exit. We used a pattern matcher to check if the messages are in a good format to make sure that corrupted messages won't crash the program.
